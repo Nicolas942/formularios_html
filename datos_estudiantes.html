@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos del estudiate</title>
+</head>
+<body>
+    <!--Esta es la la sección visible de la pagina web-->
+    <h1>REGISTRO DE ESTUDIANTES - ESPECIALIDAD EN SISTEMMAS 2026</h1>
+    <!--fORMULARIO WEB-->
+    <form action="#" method="">
+        <!--Sección de datos de estudiantes-->
+        <fieldset>
+            <legend>Datos del estudiante</legend>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+            <br><br>
+            <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+            <input type="date" name="fecha_nacimiento" id="fecha_nacimiento">
+            <label for="lugar_nacimiento">lugar de nacimiento:</label>
+            <input type="text" name="lugar_nacimiento" id="lugar_nacimiento">
+            <label for="edad">Edad:</label>
+            <input type="number" name="edad" id="edad">
+            <br><br>
+            <label for="tipo_documento">Tipo de documento de identidad:</label>
+            <label for="T.I">T.I</label>
+            <input type="radio" id="T.I" name="tipo_documento" value="T.I">
+            <label for="C.C">C.C</label>
+            <input type="radio" id="C.C" name="tipo_documento" value="C.C">  
+            <label for="Numero_documenro ">Número Documento identidad:</label>  
+            <input type="number" name="numero_identidad" id="numero_identidad">
+            <br><br>
+            <label for="lugar_expedicion_doc">Lugar Expedición Documento identidad:</label>
+            <input type="text" name="lugar_expedicion_doc" id="lugar_expedicion_doc">
+            <br><br>
+            <label for="direccion">Direccíon:</label>
+            <input type="text" name="direccion" id="direccion">
+            <label for="barrio">Barrio:</label>
+            <input type="text" name="barrio" id="barrio">
+            <label for="ciudad">Ciudad:</label>
+            <input type="text" name="ciudad" id="ciudad">
+            <br><br>
+            <label for="telefono">Teléfono:</label>
+            <input type="number" name="telefono" id="telefono">
+            <label for="celular">Celular:</label>
+            <input type="number" name="celular" id="celular">
+            <br><br>
+            <label for="email_per">E-mail personal:</label>
+            <input type="email" name="email_per" id="email_per">
+            <label for="email_ins">E-mail institucional:</label>
+            <input type="email" name="email_ins" id="email_ins">
+            <label for="tipo_sangre">Tipo de sangre:</label>
+            <select name="tipo_sangre" id="tipo_sangre">
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+                <option value="O+">O+</option>
+                <option value="O+">O-</option>
+            </select>
+            <label for="eps">EPS:</label>
+            <input type="text" name="eps" id="eps">
+            <br><br>
+            <label for="enfermedad">¿Sufre alguna enfermedad?:</label>
+            <label for="si">Sí</label>
+            <input type="radio" name="enfermedad" id="si" value="si">
+            <label for="no">No</label>
+            <input type="radio" name="enfermedad" id="no" value="no">
+            <label for="cual">Cuál?:</label>
+            <input type="text" name="cual" id="cual">
+            <br><br>
+            <label for="estrato">Estrato socioeconómico:</label>
+            <input type="number" name="estrato" id="estrato">
+            <label for="familia_act">Familias en acción:</label>
+            <label for="si">Sí</label>
+            <input type="radio" name="familia_act" id="si" value="si">
+            <label for="no">No</label>
+            <input type="radio" name="familia_act" id="no" value="no">
+            <br><br>
+            <label for="religion">Tipo de Relión:</label>
+            <input type="text" name="religion" id="religion">
+            <br><br>
+            <label for="relacion_padres">Relación Padres:</label>
+            <select name="relacion_padres" id="relacion_padres">
+                <option value="casados">casados</option>
+                <option value="divorciados">Divorciados</option>
+                <option value="union_libre">Unión libre</option>
+                <option value="otro">Otro</option>
+            </select>
+            <label for="cual_pad">Cuál?:</label>
+            <input type="text" name="cual_pad" id="cual_pad">
+            <br><br>
+            <label for="pc">Computador en casa?:</label>
+            <label for="si">Sí</label>
+            <input type="radio" name="pc" id="si" value="si">
+            <label for="no">No</label>
+            <input type="radio" name="pc" id="no" value="no">
+            <label for="internet">Internet en casa?:</label>
+            <label for="si">Sí</label>
+            <input type="radio" name="internet" id="si" value="si">
+            <label for="no">No</label>
+            <input type="radio" name="internet" id="no" value="no">
+            <br><br>
+            <label for="tiempo_libre">¿Cuáles son las principales actividades que usted realiza en su tiempo libre?</label>
+            <textarea name="tiempo_libre" id="tiempo_libre"></textarea>
+            <br><br>
+            <label for="proposito">¿Cuáles son sus propósitos y espectativas personales y académicas como estudiante de la Especialidad en Sistemas?</label>
+            <textarea name="proposito" id="proposito"></textarea>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Datos del padre</legend>
+            <label for="apellidos_pad"></label>
+            <label for="apellidos_pad">Apellidos:</label>
+            <input type="text" name="apellidos_pad" id="apellidos_pad">
+            <label for="nombres_pad">Nombre:</label>
+            <input type="text" name="nombres_pad" id="nombres_pad">
+            <br><br>
+            <label for="direccion_pad">Dirección:</label>
+            <input type="text" name="direccion_pad" id="direccion_pad">
+            <label for="barrio_pad">Barrio:</label>
+            <input type="text" name="barrio_pad" id="barrio_pad">
+            <br><br>
+            <label for="telefono_pad">Teléfono:</label>
+            <input type="number" name="telefono_pad" id="telefono_pad">
+            <label for="celular_pad">Celular:</label>
+            <input type="number" name="celular_pad" id="celular_pad">
+            <br><br>
+            <label for="email_pad">E-mail:</label>
+            <input type="email" name="email_pad" id="email_pad">
+            <br><br>
+            <label for="ocupacion_pad">Ocupación:</label>
+            <input type="text" name="ocupacion_pad" id="ocupacion_pad">
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Datos del la madre</legend>
+            <label for="apellidos_ma"></label>
+            <label for="apellidos_ma">Apellidos:</label>
+            <input type="text" name="apellidos_ma" id="apellidos_ma">
+            <label for="nombres_pad">Nombre:</label>
+            <input type="text" name="nombres_ma" id="nombres_ma">
+            <br><br>
+            <label for="direccion_ma">Dirección:</label>
+            <input type="text" name="direccion_ma" id="direccion_ma">
+            <label for="barrio_ma">Barrio:</label>
+            <input type="text" name="barrio_ma" id="barrio_ma">
+            <br><br>
+            <label for="telefono_ma">Teléfono:</label>
+            <input type="number" name="telefono_ma" id="telefono_ma">
+            <label for="celular_ma">Celular:</label>
+            <input type="number" name="celular_ma" id="celular_ma">
+            <br><br>
+            <label for="email_ma">E-mail:</label>
+            <input type="email" name="email_ma" id="email_ma">
+            <br><br>
+            <label for="ocupacion_ma">Ocupación:</label>
+            <input type="text" name="ocupacion_ma" id="ocupacion_ma">
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Datos del acudiente</legend>
+            <label for="apellidos_acu"></label>
+            <label for="apellidos_acu">Apellidos:</label>
+            <input type="text" name="apellidos_acu" id="apellidos_acu">
+            <label for="nombres_acu">Nombre:</label>
+            <input type="text" name="nombres_acu" id="nombres_acu">
+            <label for="parentesco_acu">Parentesco:</label>
+            <input type="text" name="parentesco_acu" id="parentesco_acu">
+            <br><br>
+            <label for="direccion_acu">Dirección:</label>
+            <input type="text" name="direccion_acu" id="direccion_acu">
+            <label for="barrio_acu">Barrio:</label>
+            <input type="text" name="barrio_acu" id="barrio_acu">
+            <br><br>
+            <label for="telefono_acu">Teléfono:</label>
+            <input type="number" name="telefono_acu" id="telefono_acu">
+            <label for="celular_acu">Celular:</label>
+            <input type="number" name="celular_acu" id="celular_acu">
+            <br><br>
+            <label for="email_acu">E-mail:</label>
+            <input type="email" name="email_acu" id="email_acu">
+            <br><br>
+            <label for="ocupacion_acu">Ocupación:</label>
+            <input type="text" name="ocupacion_acu" id="ocupacion_acu">
+        </fieldset>
+        <br>
+        <button type="submit">Enviar formulario</button>
+        <button type="reset">Limpiar datos</button>
+    </form>
+</body>
+</html>
